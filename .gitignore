@@ -1,0 +1,31 @@
+# NetCDF / GRIB / model output — anywhere in the tree
+*.nc
+*.nc4
+*.cdf
+*.grib
+*.grib2
+*.grb
+*.grb2
+GRIBFILE.*
+
+# Logs
+*.log
+rsl.*
+
+# WRF-specific outputs (in case any live outside GFS-DATA)
+wrfout*
+wrfrst*
+wrfinput*
+wrfbdy*
+met_em*
+geo_em*
+
+# Python / env clutter
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Windows metadata
+*.Zone.Identifier
