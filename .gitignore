@@ -30,3 +30,7 @@ __pycache__/
 # Windows metadata
 *.Zone.Identifier
 /.git_backup_83GB/
+
+# Not needed in this repo
+/GUJARAT/
+/wrf-automation/
